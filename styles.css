@@ -1,0 +1,217 @@
+.site {
+    margin: 0px;
+    padding: 0px;
+}
+.side_p { 
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 1;
+    height: 60px;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+}
+.logo { 
+margin: 10px;
+height: 60px;
+width: 60px;
+}
+.buttons { 
+margin: 20px;
+}
+.link {
+margin: 10px;
+color: white;
+text-decoration: none;
+font-size: 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.content {
+	margin-top: 100px;
+}
+
+img {
+    width: 100%;
+}
+.mainpageBox {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+}
+.pizzaBox {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.nazva {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+.categ_pizza {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+.categ {
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .mainpageBox {        
+        display: block;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+        .pizzaBox {        
+        display: block;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .mainpageImage {
+        width: 100%;
+    }
+    .pizzaImage {
+        width: 100%;
+    }
+    .mainpageH {
+        
+        word-wrap: break-word;
+        text-align: center;
+    }
+        .pizzaH {
+        
+        word-wrap: break-word;
+        text-align: center;
+    }
+    .mainpageDescription {
+        
+        word-wrap: break-word;
+        font-size: 18px;
+        text-align: center;
+    }
+    .pizzaDescription {
+        
+        word-wrap: break-word;
+        font-size: 28px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .mainpageImage {
+        width: 500px;
+        display: flex;
+        align-items: center;
+    }
+        .pizzaImage {
+        width: 500px;
+        display: flex;
+        align-items: center;
+    }
+    .mainpageDescription {
+        width: 500px;
+        word-wrap: break-word;
+        font-size: 20px;
+        text-align: center;
+    }
+    .pizzaDescription {
+        
+        word-wrap: break-word;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .mainpageH {
+        width: 500px;
+        word-wrap: break-word;
+        text-align: center;
+    }
+        .pizzaH {
+        width: 500px;
+        word-wrap: break-word;
+        text-align: center;
+    }
+}
+.inputDiv {
+    margin: 10px;
+}
+.label {
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.btn {
+    background-color: #4A5DBF;
+    color: white;
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    width: 100%;
+    min-height: 75px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+    .footer {
+        display: block;
+        text-align: center;   
+    }
+    .footerText {
+        font-size: 20px;
+        margin-top: 20px;
+        color: white;
+        font-weight: bold;
+    }
+}
+.footerText {
+    font-size: 20px;
+    color: white;
+    font-weight: bold
+}
